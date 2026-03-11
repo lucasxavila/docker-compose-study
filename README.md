@@ -59,6 +59,7 @@ docker compose logs -f api-rocket
 A aplicação estará pronta quando o log exibir: ```Nest application successfully started```.
 
 3. **Opcional**
+
 Para rodar localmente:
 ```
 npm run start
