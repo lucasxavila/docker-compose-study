@@ -58,7 +58,17 @@ docker compose logs -f api-rocket
 ```
 A aplicação estará pronta quando o log exibir: ```Nest application successfully started```.
 
-3. Acesso à Aplicação
+3. **Opcional**
+Para rodar localmente:
+```
+npm run start
+```
+Para rodar testes:
+```
+npm run test
+```
+
+4. Acesso à Aplicação
 
 A API está exposta na porta 3001 do host, mapeada da porta 3000 interna do container.
 - URL: http://localhost:3001
